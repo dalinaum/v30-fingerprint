@@ -1,86 +1,32 @@
+# V30 지문 버그 재현용 앱
 
-Android AsymmetricFingerprintDialog Sample
-===================================
+구글의 AsymmetricFingerPrintDialog 앱을 변형하여 V30(오레오) 버전의 지문 버그를 재현합니다.
 
-A sample that demonstrates to use registered fingerprints to authenticate the user in your app
+## 재현방법
 
-Introduction
-------------
+1. 앱을 실행 후 상단의 `인증합니다` 버튼을 누른다
+2. Sign in 다이얼로그가 뜨면 `Enroll` 버튼을 눌러 등록한다. (앱을 끄지 말라)
+3. 지문을 사용하여 인증이 적용되는 것을 확인한다.
+4. 앱을 끄지 않은 채 설정 화면에 가서 지문을 모두 지우고 새로운 지문을 등록한다
+5. `인증합니다` 버튼을 눌러 다시 진행한다.
+6. 화면 하단에 발생하는 토스트를 확인한다.
 
-This sample demonstrates how you can use registered fingerprints in your app to authenticate the
-user before proceeding some actions such as purchasing an item.
+V30을 제외한 다른 단말에서는 InvalidKeyException가 지문 인증전에 발생하여 이 예외를 기준으로 지문 재 등록으로 진행할 수 있다
+반면 V30(오레오) 버전에서는 verify 과정에서 SignatureException 예외를 얻게된다. SignatureException은 일시적으로도
+발생할 수 있는 예외이기 때문에 이를 근거로 지문 재 등록으로 진입시키기는 어렵다.
 
-First you need to create an asymmetric key pair in the Android Key Store using [KeyPairGenerator][1]
-in the way that its private key can only be used after the user has authenticated with fingerprint
-and transmit the public key to your backend with the user verified password (In a real world, the
-app should show proper UIs).
+### V30 토스트
 
-By setting [KeyGenParameterSpec.Builder.setUserAuthenticationRequired][2] to true, you can permit the
-use of the key only after the user authenticate it including when authenticated with the user's
-fingerprint.
+![](v30.png)
 
-Then start listening to a fingerprint on the fingerprint sensor by calling
-[FingerprintManager.authenticate][3] with a [Signature][4] initialized with the asymmetric key pair
-created. Or alternatively you can fall back to server-side verified password as an authenticator.
+### 그외 토스트
 
-Once the fingerprint (or password) is verified, the
-[FingerprintManager.AuthenticationCallback#onAuthenticationSucceeded()][5] callback is called.
+![](not_v30.png)
 
-Then you can verify the purchase transaction on server side with the public key passed from the
-client, by verifying the piece of data signed by the Signature.
+### 지문 설정 화면
 
-[1]: https://developer.android.com/reference/java/security/KeyPairGenerator.html
-[2]: https://developer.android.com/reference/android/security/keystore/KeyGenParameterSpec.Builder.html#setUserAuthenticationRequired%28boolean%29
-[3]: https://developer.android.com/reference/android/hardware/fingerprint/FingerprintManager.html#authenticate%28android.hardware.fingerprint.FingerprintManager.CryptoObject,%20android.os.CancellationSignal,%20int,%20android.hardware.fingerprint.FingerprintManager.AuthenticationCallback,%20android.os.Handler%29
-[4]: https://developer.android.com/reference/java/security/Signature.html
-[5]: https://developer.android.com/reference/android/hardware/fingerprint/FingerprintManager.AuthenticationCallback.html#onAuthenticationSucceeded%28android.hardware.fingerprint.FingerprintManager.AuthenticationResult%29
+![](settings.png)
 
-Pre-requisites
---------------
+## 이 문제가 해결된 후 예상 결과
 
-- Android SDK 26
-- Android Build Tools v26.0.1
-- Android Support Repository
-
-Screenshots
--------------
-
-<img src="screenshots/1-purchase-screen.png" height="400" alt="Screenshot"/> <img src="screenshots/2-fingerprint-dialog.png" height="400" alt="Screenshot"/> <img src="screenshots/3-fingerprint-authenticated.png" height="400" alt="Screenshot"/> <img src="screenshots/4-new-fingerprint-enrolled.png" height="400" alt="Screenshot"/> 
-
-Getting Started
----------------
-
-This sample uses the Gradle build system. To build this project, use the
-"gradlew build" command or use "Import Project" in Android Studio.
-
-Support
--------
-
-- Google+ Community: https://plus.google.com/communities/105153134372062985968
-- Stack Overflow: http://stackoverflow.com/questions/tagged/android
-
-If you've found an error in this sample, please file an issue:
-https://github.com/googlesamples/android-AsymmetricFingerprintDialog
-
-Patches are encouraged, and may be submitted by forking this project and
-submitting a pull request through GitHub. Please see CONTRIBUTING.md for more details.
-
-License
--------
-
-Copyright 2017 The Android Open Source Project, Inc.
-
-Licensed to the Apache Software Foundation (ASF) under one or more contributor
-license agreements.  See the NOTICE file distributed with this work for
-additional information regarding copyright ownership.  The ASF licenses this
-file to you under the Apache License, Version 2.0 (the "License"); you may not
-use this file except in compliance with the License.  You may obtain a copy of
-the License at
-
-http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
-WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.  See the
-License for the specific language governing permissions and limitations under
-the License.
+V30 단말에서도 InvalidKeyException이 발생하도록 수정되어야 한다. 수정이 되면 V30이 아니다라는 토스트가 뜨게 될 것이다.
