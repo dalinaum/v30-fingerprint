@@ -1,0 +1,7 @@
+#Thu Jan 25 15:58:39 KST 2018
+base.0=/Users/kakaobank/project/android-AsymmetricFingerprintDialog/Application/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_7996d5cde4735663492f8cde0564d0071a3a142b
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/Users/kakaobank/project/android-AsymmetricFingerprintDialog/Application/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_b882e3748514f6fb4e3104cefbc6273ffadd2c51/classes.dex
+base.1=/Users/kakaobank/project/android-AsymmetricFingerprintDialog/Application/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_b882e3748514f6fb4e3104cefbc6273ffadd2c51
+file.0=/Users/kakaobank/project/android-AsymmetricFingerprintDialog/Application/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_7996d5cde4735663492f8cde0564d0071a3a142b/classes.dex

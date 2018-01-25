@@ -1,0 +1,115 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/kakaobank/project/android-AsymmetricFingerprintDialog/Application/src/main/AndroidManifest.xml:17:1-47:12
+	package
+		ADDED from /Users/kakaobank/project/android-AsymmetricFingerprintDialog/Application/src/main/AndroidManifest.xml:17:11-68
+	android:versionName
+		ADDED from /Users/kakaobank/project/android-AsymmetricFingerprintDialog/Application/src/main/AndroidManifest.xml:21:5-30
+		INJECTED from /Users/kakaobank/project/android-AsymmetricFingerprintDialog/Application/src/main/AndroidManifest.xml
+		INJECTED from /Users/kakaobank/project/android-AsymmetricFingerprintDialog/Application/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/kakaobank/project/android-AsymmetricFingerprintDialog/Application/src/main/AndroidManifest.xml:19:5-51
+	android:versionCode
+		ADDED from /Users/kakaobank/project/android-AsymmetricFingerprintDialog/Application/src/main/AndroidManifest.xml:20:5-28
+		INJECTED from /Users/kakaobank/project/android-AsymmetricFingerprintDialog/Application/src/main/AndroidManifest.xml
+		INJECTED from /Users/kakaobank/project/android-AsymmetricFingerprintDialog/Application/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/kakaobank/project/android-AsymmetricFingerprintDialog/Application/src/main/AndroidManifest.xml:18:5-63
+uses-permission#android.permission.USE_FINGERPRINT
+ADDED from /Users/kakaobank/project/android-AsymmetricFingerprintDialog/Application/src/main/AndroidManifest.xml:23:5-74
+	android:name
+		ADDED from /Users/kakaobank/project/android-AsymmetricFingerprintDialog/Application/src/main/AndroidManifest.xml:23:22-71
+application
+ADDED from /Users/kakaobank/project/android-AsymmetricFingerprintDialog/Application/src/main/AndroidManifest.xml:25:5-46:19
+MERGED from [com.android.support:support-v13:26.1.0] /Users/kakaobank/.android/build-cache/2190d7b44f66a636f584f71e7ff9ea1a094b902c/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:cardview-v7:26.1.0] /Users/kakaobank/.android/build-cache/37585aeb8f264cd788040998bf48419ab8e0291e/output/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/kakaobank/.android/build-cache/a96f0446142a85c0af4c8cde9998926a8e828e0e/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/kakaobank/.android/build-cache/093db3ee5a56dcc9dbffe786c0557b71de8ee891/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/kakaobank/.android/build-cache/29338ee22269180a532cbe0c4c4622a51ff1f5d8/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/kakaobank/.android/build-cache/89dfb8f55c55d9e9c3fbd85e509c241b494ce1a3/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/kakaobank/.android/build-cache/c6a70d8ff1033d6553c671837708f7c655424d45/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/kakaobank/.android/build-cache/e29b98f7fc46ebfaeeec3b37bf94f77ef96e8e50/output/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/kakaobank/.android/build-cache/611a5cdb15e41964ddfa3b29d20b5ad085f00fd8/output/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/kakaobank/.android/build-cache/133feb688fe848c2cb59bb712e889b78e00e853d/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /Users/kakaobank/.android/build-cache/29cea868a7289aee91cf5f23733ed40ea3ce4c8f/output/AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/kakaobank/.android/build-cache/a14668552cf46024f549494e0ca1ecf662429b36/output/AndroidManifest.xml:24:5-28:19
+	android:label
+		ADDED from /Users/kakaobank/project/android-AsymmetricFingerprintDialog/Application/src/main/AndroidManifest.xml:29:9-41
+	android:supportsRtl
+		ADDED from /Users/kakaobank/project/android-AsymmetricFingerprintDialog/Application/src/main/AndroidManifest.xml:30:9-35
+	tools:ignore
+		ADDED from /Users/kakaobank/project/android-AsymmetricFingerprintDialog/Application/src/main/AndroidManifest.xml:32:9-48
+	android:allowBackup
+		ADDED from /Users/kakaobank/project/android-AsymmetricFingerprintDialog/Application/src/main/AndroidManifest.xml:27:9-35
+	android:icon
+		ADDED from /Users/kakaobank/project/android-AsymmetricFingerprintDialog/Application/src/main/AndroidManifest.xml:28:9-43
+	android:theme
+		ADDED from /Users/kakaobank/project/android-AsymmetricFingerprintDialog/Application/src/main/AndroidManifest.xml:31:9-40
+	android:name
+		ADDED from /Users/kakaobank/project/android-AsymmetricFingerprintDialog/Application/src/main/AndroidManifest.xml:26:9-44
+activity#com.example.android.asymmetricfingerprintdialog.MainActivity
+ADDED from /Users/kakaobank/project/android-AsymmetricFingerprintDialog/Application/src/main/AndroidManifest.xml:34:9-41:20
+	android:label
+		ADDED from /Users/kakaobank/project/android-AsymmetricFingerprintDialog/Application/src/main/AndroidManifest.xml:36:13-45
+	android:name
+		ADDED from /Users/kakaobank/project/android-AsymmetricFingerprintDialog/Application/src/main/AndroidManifest.xml:35:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/kakaobank/project/android-AsymmetricFingerprintDialog/Application/src/main/AndroidManifest.xml:37:13-40:29
+action#android.intent.action.MAIN
+ADDED from /Users/kakaobank/project/android-AsymmetricFingerprintDialog/Application/src/main/AndroidManifest.xml:38:17-69
+	android:name
+		ADDED from /Users/kakaobank/project/android-AsymmetricFingerprintDialog/Application/src/main/AndroidManifest.xml:38:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/kakaobank/project/android-AsymmetricFingerprintDialog/Application/src/main/AndroidManifest.xml:39:17-77
+	android:name
+		ADDED from /Users/kakaobank/project/android-AsymmetricFingerprintDialog/Application/src/main/AndroidManifest.xml:39:27-74
+activity#com.example.android.asymmetricfingerprintdialog.SettingsActivity
+ADDED from /Users/kakaobank/project/android-AsymmetricFingerprintDialog/Application/src/main/AndroidManifest.xml:43:9-45:55
+	android:label
+		ADDED from /Users/kakaobank/project/android-AsymmetricFingerprintDialog/Application/src/main/AndroidManifest.xml:45:13-52
+	android:name
+		ADDED from /Users/kakaobank/project/android-AsymmetricFingerprintDialog/Application/src/main/AndroidManifest.xml:44:13-45
+uses-sdk
+INJECTED from /Users/kakaobank/project/android-AsymmetricFingerprintDialog/Application/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:support-v13:26.1.0] /Users/kakaobank/.android/build-cache/2190d7b44f66a636f584f71e7ff9ea1a094b902c/output/AndroidManifest.xml:21:5-23:55
+MERGED from [com.android.support:cardview-v7:26.1.0] /Users/kakaobank/.android/build-cache/37585aeb8f264cd788040998bf48419ab8e0291e/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/kakaobank/.android/build-cache/a96f0446142a85c0af4c8cde9998926a8e828e0e/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:26.1.0] /Users/kakaobank/.android/build-cache/093db3ee5a56dcc9dbffe786c0557b71de8ee891/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/kakaobank/.android/build-cache/29338ee22269180a532cbe0c4c4622a51ff1f5d8/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/kakaobank/.android/build-cache/89dfb8f55c55d9e9c3fbd85e509c241b494ce1a3/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/kakaobank/.android/build-cache/c6a70d8ff1033d6553c671837708f7c655424d45/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/kakaobank/.android/build-cache/e29b98f7fc46ebfaeeec3b37bf94f77ef96e8e50/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/kakaobank/.android/build-cache/611a5cdb15e41964ddfa3b29d20b5ad085f00fd8/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/kakaobank/.android/build-cache/133feb688fe848c2cb59bb712e889b78e00e853d/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /Users/kakaobank/.android/build-cache/29cea868a7289aee91cf5f23733ed40ea3ce4c8f/output/AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/kakaobank/.android/build-cache/a14668552cf46024f549494e0ca1ecf662429b36/output/AndroidManifest.xml:20:5-22:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v13:26.1.0] /Users/kakaobank/.android/build-cache/2190d7b44f66a636f584f71e7ff9ea1a094b902c/output/AndroidManifest.xml:23:9-52
+	android:targetSdkVersion
+		INJECTED from /Users/kakaobank/project/android-AsymmetricFingerprintDialog/Application/src/main/AndroidManifest.xml
+		INJECTED from /Users/kakaobank/project/android-AsymmetricFingerprintDialog/Application/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/kakaobank/project/android-AsymmetricFingerprintDialog/Application/src/main/AndroidManifest.xml
+		INJECTED from /Users/kakaobank/project/android-AsymmetricFingerprintDialog/Application/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:support-v13:26.1.0] /Users/kakaobank/.android/build-cache/2190d7b44f66a636f584f71e7ff9ea1a094b902c/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:cardview-v7:26.1.0] /Users/kakaobank/.android/build-cache/37585aeb8f264cd788040998bf48419ab8e0291e/output/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/kakaobank/.android/build-cache/a96f0446142a85c0af4c8cde9998926a8e828e0e/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] /Users/kakaobank/.android/build-cache/093db3ee5a56dcc9dbffe786c0557b71de8ee891/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/kakaobank/.android/build-cache/29338ee22269180a532cbe0c4c4622a51ff1f5d8/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/kakaobank/.android/build-cache/89dfb8f55c55d9e9c3fbd85e509c241b494ce1a3/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/kakaobank/.android/build-cache/c6a70d8ff1033d6553c671837708f7c655424d45/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/kakaobank/.android/build-cache/e29b98f7fc46ebfaeeec3b37bf94f77ef96e8e50/output/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/kakaobank/.android/build-cache/611a5cdb15e41964ddfa3b29d20b5ad085f00fd8/output/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/kakaobank/.android/build-cache/133feb688fe848c2cb59bb712e889b78e00e853d/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /Users/kakaobank/.android/build-cache/29cea868a7289aee91cf5f23733ed40ea3ce4c8f/output/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:support-v13:26.1.0] /Users/kakaobank/.android/build-cache/2190d7b44f66a636f584f71e7ff9ea1a094b902c/output/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:support-v13:26.1.0] /Users/kakaobank/.android/build-cache/2190d7b44f66a636f584f71e7ff9ea1a094b902c/output/AndroidManifest.xml:27:13-51
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/kakaobank/.android/build-cache/a14668552cf46024f549494e0ca1ecf662429b36/output/AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/kakaobank/.android/build-cache/a14668552cf46024f549494e0ca1ecf662429b36/output/AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/kakaobank/.android/build-cache/a14668552cf46024f549494e0ca1ecf662429b36/output/AndroidManifest.xml:26:13-58

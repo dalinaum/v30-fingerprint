@@ -17,6 +17,8 @@
 package com.example.android.asymmetricfingerprintdialog.server;
 
 
+import android.util.Log;
+
 import java.security.InvalidKeyException;
 import java.security.NoSuchAlgorithmException;
 import java.security.PublicKey;
@@ -33,18 +35,14 @@ import java.util.Set;
 public class StoreBackendImpl implements StoreBackend {
 
     private final Map<String, PublicKey> mPublicKeys = new HashMap<>();
-    private final Set<Transaction> mReceivedTransactions = new HashSet<>();
 
     @Override
     public boolean verify(Transaction transaction, byte[] transactionSignature) {
         try {
-            if (mReceivedTransactions.contains(transaction)) {
-                // It verifies the equality of the transaction including the client nonce
-                // So attackers can't do replay attacks.
+            PublicKey publicKey = mPublicKeys.get(transaction.getUserId());
+            if (publicKey == null) {
                 return false;
             }
-            mReceivedTransactions.add(transaction);
-            PublicKey publicKey = mPublicKeys.get(transaction.getUserId());
             Signature verificationFunction = Signature.getInstance("SHA256withECDSA");
             verificationFunction.initVerify(publicKey);
             verificationFunction.update(transaction.toByteArray());
@@ -54,15 +52,9 @@ public class StoreBackendImpl implements StoreBackend {
                 return true;
             }
         } catch (NoSuchAlgorithmException | InvalidKeyException | SignatureException e) {
-            // In a real world, better to send some error message to the user
+            Log.e("CERTTEST", "exception: " + e.getLocalizedMessage());
         }
         return false;
-    }
-
-    @Override
-    public boolean verify(Transaction transaction, String password) {
-        // As this is just a sample, we always assume that the password is right.
-        return true;
     }
 
     @Override

@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/kakaobank/project/android-AsymmetricFingerprintDialog/Application/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ca1c3ce7285f77ad986b8ff35c753614fec354e6">
+        <dex dex="/Users/kakaobank/project/android-AsymmetricFingerprintDialog/Application/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_b882e3748514f6fb4e3104cefbc6273ffadd2c51/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Applications/Android Studio.app/Contents/gradle/m2repository/com/squareup/javawriter/2.5.0/javawriter-2.5.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="81241ff7078ef14f42ea2a8995fa09c096256e6b">
+        <dex dex="/Users/kakaobank/project/android-AsymmetricFingerprintDialog/Application/build/intermediates/pre-dexed/debug/javawriter-2.5.0_a3f874f49e4f2125d5b23c2c4a6cf5db5d98275c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/kakaobank/.android/build-cache/a96f0446142a85c0af4c8cde9998926a8e828e0e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f428e2fbc9ed0b297e3a3f420e51e6982f66822d">
+        <dex dex="/Users/kakaobank/project/android-AsymmetricFingerprintDialog/Application/build/intermediates/pre-dexed/debug/classes_9f8e3da9e97f180c912adb6cf1b85372c8c6dfc1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/kakaobank/.gradle/caches/modules-2/files-2.1/org.objenesis/objenesis/2.1/87c0ea803b69252868d09308b4618f766f135a96/objenesis-2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="87c0ea803b69252868d09308b4618f766f135a96">
+        <dex dex="/Users/kakaobank/project/android-AsymmetricFingerprintDialog/Application/build/intermediates/pre-dexed/debug/objenesis-2.1_fa8b619c1de8bd2c8a43209b31ccce2bb9587662.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/kakaobank/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/15.0/ed727a8d9f247e2050281cb083f1c77b09dcb5cd/guava-15.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ed727a8d9f247e2050281cb083f1c77b09dcb5cd">
+        <dex dex="/Users/kakaobank/project/android-AsymmetricFingerprintDialog/Application/build/intermediates/pre-dexed/debug/guava-15.0_1800f7aa31ec4f745d99871d705eb0cc6d35feed.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/kakaobank/.android/build-cache/37585aeb8f264cd788040998bf48419ab8e0291e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b4d6fbbb48b42dd03fd9c5a09b3b7a53266df6ed">
+        <dex dex="/Users/kakaobank/project/android-AsymmetricFingerprintDialog/Application/build/intermediates/pre-dexed/debug/classes_c0f8cfc650ff34552488356265630ab8ff0a96b1.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kakaobank/project/android-AsymmetricFingerprintDialog/Application/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/kakaobank/project/android-AsymmetricFingerprintDialog/Application/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_7996d5cde4735663492f8cde0564d0071a3a142b/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/kakaobank/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="42a25dc3219429f0e5d060061f71acb49bf010a0">
+        <dex dex="/Users/kakaobank/project/android-AsymmetricFingerprintDialog/Application/build/intermediates/pre-dexed/debug/hamcrest-core-1.3_2ff6cb3b265c88ec4a128ab81f960443d98680bd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/kakaobank/.android/build-cache/093db3ee5a56dcc9dbffe786c0557b71de8ee891/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/kakaobank/project/android-AsymmetricFingerprintDialog/Application/build/intermediates/pre-dexed/debug/classes_ea44d9784cf3950d3d25740cdc8cd43691b28b80.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/kakaobank/.android/build-cache/611a5cdb15e41964ddfa3b29d20b5ad085f00fd8/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6f4138a4e065826cb044d49faea4cfd7191773d1">
+        <dex dex="/Users/kakaobank/project/android-AsymmetricFingerprintDialog/Application/build/intermediates/pre-dexed/debug/classes_9c225f45dc439fe4bff173c8e5c06d6da01ecb2f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/kakaobank/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/26.1.0/814258103cf26a15fcc26ecce35f5b7d24b73f8/support-annotations-26.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="0814258103cf26a15fcc26ecce35f5b7d24b73f8">
+        <dex dex="/Users/kakaobank/project/android-AsymmetricFingerprintDialog/Application/build/intermediates/pre-dexed/debug/support-annotations-26.1.0_f973a9e289ab664c422781170c90baf300a20b90.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/kakaobank/.android/build-cache/c6a70d8ff1033d6553c671837708f7c655424d45/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="233f60a165ae622c8b36731502ebbda0f65e1930">
+        <dex dex="/Users/kakaobank/project/android-AsymmetricFingerprintDialog/Application/build/intermediates/pre-dexed/debug/classes_15449bbd1b9425c19de06735548aacbacbc2e966.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/kakaobank/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/1.10.19/e8546f5bef4e061d8dd73895b4e8f40e3fe6effe/mockito-core-1.10.19.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="e8546f5bef4e061d8dd73895b4e8f40e3fe6effe">
+        <dex dex="/Users/kakaobank/project/android-AsymmetricFingerprintDialog/Application/build/intermediates/pre-dexed/debug/mockito-core-1.10.19_8d43ccdfe8a658474be4509d1f3d4bb0bc86836d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/kakaobank/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.0.0/a2d487452376193fc8c103dd2b9bd5f2b1b44563/common-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a2d487452376193fc8c103dd2b9bd5f2b1b44563">
+        <dex dex="/Users/kakaobank/project/android-AsymmetricFingerprintDialog/Application/build/intermediates/pre-dexed/debug/common-1.0.0_347e49b93fda5a7268a0ef5aa8cbc46bc357527b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/kakaobank/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.0.0/e414a4cb28434e25c4f6aa71426eb20cf4874ae9/common-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="e414a4cb28434e25c4f6aa71426eb20cf4874ae9">
+        <dex dex="/Users/kakaobank/project/android-AsymmetricFingerprintDialog/Application/build/intermediates/pre-dexed/debug/common-1.0.0_580ec9ed6f6fea244c50b4664a6fa09f412f17b1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/kakaobank/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/2973d150c0dc1fefe998f834810d68f278ea58ec/junit-4.12.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2973d150c0dc1fefe998f834810d68f278ea58ec">
+        <dex dex="/Users/kakaobank/project/android-AsymmetricFingerprintDialog/Application/build/intermediates/pre-dexed/debug/junit-4.12_da77408e8b1b40c7f18c494b379e790cdf1cd4da.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/kakaobank/.android/build-cache/29cea868a7289aee91cf5f23733ed40ea3ce4c8f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2442771a5590dd4eb4bce00c2e9dca9e22e4c963">
+        <dex dex="/Users/kakaobank/project/android-AsymmetricFingerprintDialog/Application/build/intermediates/pre-dexed/debug/classes_7f2ff23f0f69ad2182cbd451c6931c3f16434e48.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/kakaobank/.android/build-cache/e29b98f7fc46ebfaeeec3b37bf94f77ef96e8e50/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="40392f30a601db5675cdf18192aab013d6fee6ec">
+        <dex dex="/Users/kakaobank/project/android-AsymmetricFingerprintDialog/Application/build/intermediates/pre-dexed/debug/classes_84fc21294de7a4de4fc2dc11c514054743399c5b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/kakaobank/.gradle/caches/modules-2/files-2.1/com.squareup.dagger/dagger/1.2.2/e8f912ee19ad84958510883ea191135276b091f8/dagger-1.2.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="e8f912ee19ad84958510883ea191135276b091f8">
+        <dex dex="/Users/kakaobank/project/android-AsymmetricFingerprintDialog/Application/build/intermediates/pre-dexed/debug/dagger-1.2.2_962ba3ebad68c70600166b0bd70e7a8a75f3c1a5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/kakaobank/.android/build-cache/133feb688fe848c2cb59bb712e889b78e00e853d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="508f50705b4fde51a16259f29c854201a3044516">
+        <dex dex="/Users/kakaobank/project/android-AsymmetricFingerprintDialog/Application/build/intermediates/pre-dexed/debug/classes_bc5d2efb091c06a41c8383aebb248e402f0ceda9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/kakaobank/.android/build-cache/2190d7b44f66a636f584f71e7ff9ea1a094b902c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="80d9ff49e99ff481062ea190b43e8d6bdffd4ddc">
+        <dex dex="/Users/kakaobank/project/android-AsymmetricFingerprintDialog/Application/build/intermediates/pre-dexed/debug/classes_5ed571833bb74f15c8b5f64df09330ce30cced68.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/kakaobank/.android/build-cache/a14668552cf46024f549494e0ca1ecf662429b36/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b62fdc4cfef174c1e456014195c83fa7de7dc041">
+        <dex dex="/Users/kakaobank/project/android-AsymmetricFingerprintDialog/Application/build/intermediates/pre-dexed/debug/classes_866604bc2f30d1a1177a22ea55dc3d91902455c6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/kakaobank/.gradle/caches/modules-2/files-2.1/com.squareup.dagger/dagger-compiler/1.2.2/fa9b2f9ae597cedf2a66ef3e60662ff36bb60e57/dagger-compiler-1.2.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="fa9b2f9ae597cedf2a66ef3e60662ff36bb60e57">
+        <dex dex="/Users/kakaobank/project/android-AsymmetricFingerprintDialog/Application/build/intermediates/pre-dexed/debug/dagger-compiler-1.2.2_fa58a68e13771c98cda3be7fb334017de0df06d0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/kakaobank/.android/build-cache/89dfb8f55c55d9e9c3fbd85e509c241b494ce1a3/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="7efef32744ca4a436492d5cf28c08698cc2af256">
+        <dex dex="/Users/kakaobank/project/android-AsymmetricFingerprintDialog/Application/build/intermediates/pre-dexed/debug/classes_4cb24cdffa04d410603165f0cbb24d7be41df449.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/kakaobank/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/kakaobank/project/android-AsymmetricFingerprintDialog/Application/build/intermediates/pre-dexed/debug/javax.inject-1_dc8adc8e6aa8b7e850110a8269da345bb2ed6e0a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/kakaobank/.android/build-cache/29338ee22269180a532cbe0c4c4622a51ff1f5d8/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f97cf85b0fe70d37a705111dafa6b1b418ea1650">
+        <dex dex="/Users/kakaobank/project/android-AsymmetricFingerprintDialog/Application/build/intermediates/pre-dexed/debug/classes_857eef52a34a124a096ce3ea5c01b9a15dc99305.jar" />
+    </item>
+
+</items>

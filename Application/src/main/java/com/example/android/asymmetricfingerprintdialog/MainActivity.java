@@ -71,7 +71,8 @@ public class MainActivity extends Activity {
         ((InjectedApplication) getApplication()).inject(this);
 
         setContentView(R.layout.activity_main);
-        Button purchaseButton = (Button) findViewById(R.id.purchase_button);
+
+        Button purchaseButton = findViewById(R.id.purchase_button);
         if (!mKeyguardManager.isKeyguardSecure()) {
             // Show a message that the user hasn't set up a fingerprint or lock screen.
             Toast.makeText(this,
@@ -91,6 +92,7 @@ public class MainActivity extends Activity {
             return;
         }
         createKeyPair();
+
         purchaseButton.setEnabled(true);
         purchaseButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -144,9 +146,13 @@ public class MainActivity extends Activity {
             mSignature.initSign(key);
             return true;
         } catch (KeyPermanentlyInvalidatedException e) {
+            Toast.makeText(this, "Ta da! This aint V30! Yeah~!", Toast.LENGTH_SHORT).show();
+            return false;
+        } catch (InvalidKeyException e) {
+            Toast.makeText(this, "Ta da! This aint V30! Yeah~!", Toast.LENGTH_SHORT).show();
             return false;
         } catch (KeyStoreException | CertificateException | UnrecoverableKeyException | IOException
-                | NoSuchAlgorithmException | InvalidKeyException e) {
+                | NoSuchAlgorithmException e) {
             throw new RuntimeException("Failed to init Cipher", e);
         }
     }
@@ -163,7 +169,7 @@ public class MainActivity extends Activity {
     private void showConfirmation(byte[] encrypted) {
         findViewById(R.id.confirmation_message).setVisibility(View.VISIBLE);
         if (encrypted != null) {
-            TextView v = (TextView) findViewById(R.id.encrypted_message);
+            TextView v = findViewById(R.id.encrypted_message);
             v.setVisibility(View.VISIBLE);
             v.setText(Base64.encodeToString(encrypted, 0 /* flags */));
         }
@@ -182,7 +188,7 @@ public class MainActivity extends Activity {
             // and the constrains (purposes) in the constructor of the Builder
             mKeyPairGenerator.initialize(
                     new KeyGenParameterSpec.Builder(KEY_NAME,
-                            KeyProperties.PURPOSE_SIGN)
+                            KeyProperties.PURPOSE_SIGN | KeyProperties.PURPOSE_VERIFY)
                             .setDigests(KeyProperties.DIGEST_SHA256)
                             .setAlgorithmParameterSpec(new ECGenParameterSpec("secp256r1"))
                             // Require the user to authenticate with a fingerprint to authorize

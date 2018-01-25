@@ -38,16 +38,6 @@ public interface StoreBackend {
     boolean verify(Transaction transaction, byte[] transactionSignature);
 
     /**
-     * Verifies the authenticity of the provided transaction by password.
-     *
-     * @param transaction the contents of the purchase transaction, its contents are signed by the
-     *                    private key in the client side.
-     * @param password    the password for the user associated with the {@code transaction}.
-     * @return true if the password is verified.
-     */
-    boolean verify(Transaction transaction, String password);
-
-    /**
      * Enrolls a public key associated with the userId
      *
      * @param userId    the unique ID of the user within the app including server side
